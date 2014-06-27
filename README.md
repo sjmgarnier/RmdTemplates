@@ -8,10 +8,6 @@ Public Library of Science (all PLoS journals share the same basic template).
 More journals will come as I write articles for them, or as contributors offer 
 their own templates :-)
 
-=======
-More journals will come as I write articles for them, or as contributors offer 
-their own templates :-) 
-
 ---
 
 To install the package, run the following line in the R console: 
