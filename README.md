@@ -6,7 +6,7 @@ For now the package only contains templates for all journals from PLoS, the
 Public Library of Science (all PLoS journals share the same basic template). 
 
 More journals will come as I write articles for them, or as contributors offer 
-their own templates :-) 
+their own templates :-)
 
 ---
 
