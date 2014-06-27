@@ -1,6 +1,6 @@
 #' @export
-plos_comp_bio_article <- function() {
-  template <- find_resource("plos_comp_bio_article", "template.tex")
+plos_article <- function() {
+  template <- find_resource("plos_article", "template.tex")
   
   base <- rmarkdown::pdf_document(template = template, keep_tex = TRUE)
   
