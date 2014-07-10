@@ -81,7 +81,7 @@ $for(author)$
 $endfor$
 \\
 $for(affiliation)$
-\bf{$affiliation.id$} $affiliation.department$, $affiliation.institution$, $affiliation.city$, $affiliation.state$, $affiliation.country$ 
+\bf{$affiliation.id$} $if(affiliation.department)$$affiliation.department$, $endif$$if(affiliation.institution)$$affiliation.institution$, $endif$ $if(affiliation.city)$$affiliation.city$, $endif$ $if(affiliation.state)$$affiliation.state$, $endif$ $if(affiliation.country)$$affiliation.country$$endif$
 \\
 $endfor$
 

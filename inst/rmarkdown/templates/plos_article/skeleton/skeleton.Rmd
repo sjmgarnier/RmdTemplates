@@ -34,25 +34,20 @@ bibliography: library.bib
 ---
 
 # Abstract {-}
-
 Please keep the abstract between 250 and 300 words
 
 # Author summary {-}
-
 Please keep the Author Summary between 150 and 200 words Use first person. PLoS 
 ONE authors please skip this step. Author Summary not valid for PLoS ONE 
 submissions. 
 
 # Introduction {-}
-
 Cite fancy references [@Garnier2007].
 
 # Results {-}
-
 Results and Discussion can be combined.
 
 ## Subsection 1 {-}
-
 You can use R chunks directly to plot graphs.
 
 ```{r, graph, echo=TRUE, message=FALSE, fig.height=4, fig.width=4, fig.align='center', fig.cap='Figure caption'}
@@ -64,7 +59,6 @@ ggplot(data = data.frame(x, y),
   geom_point() + 
   geom_smooth(method = "lm")
 ```
-
 
 ## Subsection 2 {-}
 
@@ -78,6 +72,11 @@ for PLoS ONE authors. However, PLoS ONE authors may use "Analysis"
 Do NOT remove this, even if you are not including acknowledgments
 
 # References {-}
+A reference list should be automatically created here. However it won't. Pandoc 
+will place the list of references at the end of the document instead. There are 
+no convenient solution for now to force Pandoc to do otherwise. The easiest way 
+to get around this problem is to edit the LaTeX file created by Pandoc before 
+compiling it again using the traditional LaTeX commands.
 
 # Figure Legends {-}
 
