@@ -1,0 +1,39 @@
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  text-indent: 2em;
+}
+
+p {
+  text-align: justify;
+}
+
+span.header-section-number::after, 
+span.toc-section-number::after {
+  content: " - ";
+}
+
+hr {
+  border: none;
+  height: 3px;
+  color: #EEEEEE; 
+  background-color: #EEEEEE; 
+}
+
+.caption {
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 6pt;
+  padding-bottom: 6pt;
+}
+
+pre {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+

@@ -1,0 +1,45 @@
+---
+title: 'Notebook'
+author: "Your name"
+date: "Today's date"
+output:
+  html_document:
+    css: custom.css
+    fig_caption: true
+    fig_width: 8
+    number_sections: true
+    theme: cosmo
+    toc: true
+    csl: plos.csl
+    bibliography: library.bib
+---
+
+--- 
+
+# Required libraries
+
+```{r, 'setup', message=FALSE}
+library(rmarkdown)
+```
+
+[Back to top]("#")
+
+---
+
+# Section with figure and caption
+
+```{r, 'figure_1', cache=TRUE, fig.align='center', out.width='80%'}
+plot(1:100)
+```
+<p class="caption">**Figure 1:** Figure caption.</p>
+
+[Back to top]("#")
+
+---
+
+# References {-}
+
+[Back to top]("#")
+
+---
+
