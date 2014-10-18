@@ -20,7 +20,7 @@ To install the package, run the following line in the R console:
 if (!require("devtools")) {
   install.packages("devtools")
 }
-devtools::install_github("morpionz/RmdTemplates")
+devtools::install_github("sjmgarnier/RmdTemplates")
 ``` 
 
 The template should now be accessible in [RStudio](http://www.rstudio.org/) via 
