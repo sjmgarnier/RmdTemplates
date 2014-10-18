@@ -28,7 +28,7 @@ library(rmarkdown)
 
 # Section with figure and caption
 
-```{r, 'figure_1', cache=TRUE, fig.align='center', out.width='80%'}
+```{r, 'figure_1', cache=TRUE, fig.align='center', out.width='80%', dpi=300}
 plot(1:100)
 ```
 <p class="caption">**Figure 1:** Figure caption.</p>
