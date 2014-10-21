@@ -1,4 +1,4 @@
 name: Swarmlab notebook template
 description: >
- Template for creating a notebook at NJIT's SwarmLab
+  Template for creating a notebook at NJIT's SwarmLab.
 create_dir: true
