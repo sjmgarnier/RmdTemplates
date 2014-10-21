@@ -32,8 +32,19 @@ hr {
 }
 
 pre {
+  width: 80%;
   margin-left: 10%;
   margin-right: 10%;
 }
 
+video {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
+img {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
