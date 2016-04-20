@@ -43,17 +43,23 @@ pre {
 }
 
 video {
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 img {
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 table {
   font-size: 12px;
+}
+
+.shiny {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }

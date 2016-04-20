@@ -6,7 +6,8 @@ output:
   html_document:
     css: custom.css
     fig_caption: true
-    fig_width: 8
+    fig_width: 9
+    fig_height: 6
     number_sections: true
     theme: cosmo
     toc: true
