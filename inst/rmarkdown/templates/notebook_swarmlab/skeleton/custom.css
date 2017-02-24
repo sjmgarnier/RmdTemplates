@@ -30,8 +30,8 @@ hr {
 
 .caption {
   text-align: justify;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 6pt;
   padding-bottom: 6pt;
 }
@@ -49,9 +49,10 @@ video {
 }
 
 img {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  display: table;
+  margin: 0 auto;
+  max-height: 400px;
+  width: auto;
 }
 
 table {
