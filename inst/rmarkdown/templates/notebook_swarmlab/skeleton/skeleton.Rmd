@@ -11,7 +11,7 @@ output:
     number_sections: true
     theme: cosmo
     toc: true
-    csl: plos.csl
+    csl: http://www.zotero.org/styles/plos-computational-biology
     bibliography: library.bib
 ---
 
